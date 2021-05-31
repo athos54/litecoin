@@ -14,7 +14,7 @@ apt-get install -y libzmq3-dev
 
 #remove this commet to build with qt-gui
 # apt-get -y install libqrencode-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
-
+# cp ./src/qt/res/icons/litecoin_splash.png ./src/qt/res/icons/athoscoin_splash.png
 apt autoremove -y
 
 echo "******************************************************"

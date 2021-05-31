@@ -1,0 +1,1 @@
+rsync -rtlv ./ athoscoin1:/root/athoscoin/

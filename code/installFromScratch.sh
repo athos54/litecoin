@@ -1,21 +1,21 @@
-apt update -y
-apt upgrade -y
-apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
-apt-get install -y libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
+sudo apt-get install -y libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
 #BerkleyDB for wallet support
-apt-get install -y software-properties-common
-add-apt-repository ppa:bitcoin/bitcoin -y
-apt-get update
-apt-get install -y libdb4.8-dev libdb4.8++-dev
+sudo apt-get install -y software-properties-common
+sudo add-apt-repository ppa:bitcoin/bitcoin -y
+sudo apt-get update
+sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
 #upnp
-apt-get install -y libminiupnpc-dev
+sudo apt-get install -y libminiupnpc-dev
 #ZMQ
-apt-get install -y libzmq3-dev
+sudo apt-get install -y libzmq3-dev
 
 #remove this commet to build with qt-gui
-# apt-get -y install libqrencode-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+# sudo apt-get -y install libqrencode-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 # cp ./litecoin/src/qt/res/icons/litecoin_splash.png ./litecoin/src/qt/res/icons/athoscoin_splash.png
-apt autoremove -y
+sudo apt autoremove -y
 cd code
 echo "******************************************************"
 echo "******************************************************"

@@ -13,7 +13,7 @@ apt-get install -y libminiupnpc-dev
 apt-get install -y libzmq3-dev
 
 #remove this commet to build with qt-gui
-# apt-get install libqrencode-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+# apt-get -y install libqrencode-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 
 apt autoremove -y
 
